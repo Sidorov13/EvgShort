@@ -255,7 +255,7 @@ img{
 }
 
 .s1{
-//*	background: linear-gradient(180deg, #FFF 0%, #FFF 22.29%, #FFF 39.07%, #E8F4FF 69.66%, #f8d8c3 100%);*//
+	background: linear-gradient(180deg, #FFF 0%, #FFF 22.29%, #FFF 39.07%, #EAE2BA 69.66%, #FFFCBB 100%);
      
   padding-top: 0;
 }
@@ -295,9 +295,10 @@ img{
   padding: 19px 28px;
   margin-bottom: 33px;
   list-style: disc;
-  width: 70%;
+  width: 80%;
   font-size: 15px;
   font-weight: 500;
+  background: linear-gradient(#FFFCBB , #EE877C);
 }
 .s1 .price{
   font-size: 20px;
