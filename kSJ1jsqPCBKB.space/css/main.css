@@ -221,14 +221,14 @@ img{
   display: none !important;
 }
 .blue{
-  color: #0085FF;
+ color: #EE877C;
 }
 .bluebg{
   border-radius: 30px;
-  border: 1px solid #4AA8FF;
-  background: linear-gradient(180deg, #43A1F8 0%, #0085FF 100%);
+  /*border: 1px solid #4AA8FF;*/
+  background: linear-gradient(#FFFCBB , #EE877C);
   backdrop-filter: blur(0.5px);
-  color: #fff;
+  color: dark;
 }
 .items{
   display: flex;
@@ -301,6 +301,7 @@ img{
 .s1 .price{
   font-size: 20px;
   margin-bottom: 19px;
+
 }
 #change{
 background-color: red;
@@ -585,7 +586,7 @@ color:black;
   text-transform: uppercase;
 }
 .s10 .price span, .box-modal .price span{
-  background: linear-gradient(180deg, #4AA8FF 0%, #116EC4 89.58%, #0085FF 100%);
+background: linear-gradient(180deg, #F08175 0%, #F8D8C3 89.58%, #BD5725 100%);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -719,4 +720,10 @@ footer p{
 .icon-button img {
   width: 24px; /* Установите размеры иконки по вашему усмотрению */
   height: 24px;
+}
+#mynewdiv{
+font-size: 20px;
+}
+#Evgdiv{
+ background: dark;
 }
