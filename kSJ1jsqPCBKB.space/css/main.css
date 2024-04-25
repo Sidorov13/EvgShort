@@ -81,17 +81,18 @@ img{
 
 
 .accordion {
-  width: 1%;
+  width: 50%;
   display: block;
-  margin-top: 10px;
+  margin: 0 auto;
  /* margin: 0 auto;*/
 }
-#acc {
+
+/*#acc {
 
   display: block;
   margin: 0 auto;
     width:50%;
-}
+}*/
 
 
 
@@ -727,3 +728,18 @@ footer p{
 font-size: 20px;
 }
 
+.image-container {
+    width: 200px; /* Установите желаемую ширину контейнера */
+    height: 200px; /* Установите желаемую высоту контейнера */
+    overflow: hidden; /* Обрезать изображение, которое выходит за пределы контейнера */
+}
+
+.image-container img {
+    width: 100%; /* Заполнить всю ширину контейнера */
+    height: 100%; /* Заполнить всю высоту контейнера */
+    transition: transform 0.3s ease; /* Добавить плавный переход */
+}
+
+.image-container img:hover {
+    transform: scale(1.2); /* Увеличить картинку в 1.2 раза при наведении */
+}
