@@ -18,7 +18,7 @@
 	
 }
 @media only screen and (max-width : 600px) {
-	.s1 .content, .box-modal,.s1 .head,.s1 h1+p,.s3 .item,.s3 .bluebg,.s4 .item,.s5 img,.s6 .item,.s7 .it,.s8 .items,.s9 .item,.accordion,.s1 ul{
+	.s1 .content, .box-modal,.s1 .head,.s1 h1+p,.s3 .item,.s3 .bluebg,.s4 .item,.s5 img,.s55 img,.s6 .item,.s7 .it,.s8 .items,.s9 .item,.accordion,.s1 ul{
 		width: 100%;
 	}
 	.desk{
@@ -90,6 +90,10 @@
 	width: 75%;
 }
 .s5 img{
+	position: relative;
+	right: 0;
+}
+.s55 img{
 	position: relative;
 	right: 0;
 }
