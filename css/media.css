@@ -15,7 +15,8 @@
 
 /* Small Devices, Tablets */
 @media only screen and (max-width : 768px) {
-	
+
+
 }
 @media only screen and (max-width : 600px) {
 	.s1 .content, .box-modal,.s1 .head,.s1 h1+p,.s3 .item,.s3 .bluebg,.s4 .item,.s5 img,.s55 img,.s6 .item,.s7 .it,.s8 .items,.s9 .item,.accordion,.s1 ul{
@@ -186,14 +187,33 @@ border-radius: 20px;
 
 }
 
+
 /* Small Devices, Tablets */
 @media only screen and (min-width : 768px) {
+
+}
+
+@media only screen and (min-width: 320px) and (max-width: 768px) {
+    /* Ваши стили */
 
 }
 
 /* Medium Devices, Desktops */
 @media only screen and (min-width : 992px) {
 
+
+}
+@media only screen and (max-height : 412px) {
+    .s55 img {
+position: absolute;
+  width: 33%;
+  top: 26%;
+  right: -1%;
+  
+}
+.s55 #divs55 {
+    width: 80%;
+}
 }
 
  /* Large Devices, Wide Screens */
