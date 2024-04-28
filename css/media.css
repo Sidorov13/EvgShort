@@ -137,6 +137,7 @@
 .s7 .items{
 background: rgba(255, 255, 255, 0.50);
 backdrop-filter: blur(0.5px);
+border-radius: 20px;
 }
 .s8 .lesson {
     padding: 5px 10px;

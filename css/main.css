@@ -459,9 +459,9 @@ color:black;
   padding-left: 15px;
 }
 .s55 img{
-  position: static;
-width: 46%;
-  top: 6%;
+position: absolute;
+  width: 38%;
+  top: 4%;
   right: 15%;
 }
 .s55 .descr{
@@ -519,12 +519,21 @@ width: 46%;
   left: 15px;
   z-index: -1;
 }
+
+.s7 items{
+ border-radius: 20px;
+}
 .s7{
-  background: linear-gradient(0deg, #F3F3F3 0%, #F3F3F3 100%);
+  background: linear-gradient(#FFFCBB, #FFDFDC);
 }
 .s7 h2{
   margin-bottom: 29px;
   text-align: center;
+}
+.s7 h3{
+  margin-bottom: 29px;
+  text-align: center;
+ 
 }
 .s7 .it{
   width: 48%;
@@ -540,14 +549,17 @@ width: 46%;
   justify-content: space-between;
   margin-bottom: 10px;
   align-items: center;
+
 }
 .s7 .it .item img{
   width: 6%;
 }
 .s7 .it .item p{
   width: 90%;
-  font-size: 15px;
+  font-size: 16px;
 }
+
+
 .s8 h2{
   text-align: center;
   margin-bottom: 15px;
@@ -560,6 +572,7 @@ width: 46%;
   margin-bottom: 8px;
   padding: 30px;
 }
+
 .s8 .items div{
   width: 30%;
 }
@@ -822,3 +835,6 @@ font-size: 20px;
 .image-container img:hover {
     transform: scale(1.2); /* Увеличить картинку в 1.2 раза при наведении */
 }
+
+
+
