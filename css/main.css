@@ -333,6 +333,7 @@ background-color: white;
 }
 .s3{
   padding-bottom: 100px;
+  background-color: white;
 }
 .s3 h2{
   margin-bottom: 32px;
@@ -464,6 +465,9 @@ position: absolute;
   top: 4%;
   right: 15%;
 }
+
+
+
 .s55 .descr{
   position: absolute;
   bottom: 10%;
@@ -715,7 +719,7 @@ background: linear-gradient(180deg, #F08175 0%, #F8D8C3 89.58%, #BD5725 100%);
 
 .footer-content {
     display: flex;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap;*/
     justify-content: space-between;
 }
 
@@ -751,7 +755,9 @@ background: linear-gradient(180deg, #F08175 0%, #F8D8C3 89.58%, #BD5725 100%);
 .footer-section ul li a:hover {
     text-decoration: underline;
 }
-
+.footer img {
+  width: 6%;
+}
 
 .box-modal iframe{
   width: 100%;
@@ -818,6 +824,7 @@ background: linear-gradient(180deg, #F08175 0%, #F8D8C3 89.58%, #BD5725 100%);
 }
 #mynewdiv{
 font-size: 20px;
+margin-bottom: 20px;
 }
 
 .image-container {
@@ -834,6 +841,11 @@ font-size: 20px;
 
 .image-container img:hover {
     transform: scale(1.2); /* Увеличить картинку в 1.2 раза при наведении */
+}
+#logohead{
+left: 1%;
+position: absolute;
+
 }
 
 
