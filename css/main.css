@@ -755,7 +755,7 @@ background: linear-gradient(180deg, #F08175 0%, #F8D8C3 89.58%, #BD5725 100%);
 .footer-section ul li a:hover {
     text-decoration: underline;
 }
-.footer img {
+.footer .item img    {
   width: 6%;
 }
 
