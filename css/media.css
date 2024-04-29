@@ -153,6 +153,15 @@ border-radius: 20px;
 .s11 img{
 	width: 35%;
 }
+.footer-content {
+	display: block;
+	text-align: center;
+}
+
+#footerright {
+text-align: center;
+
+}
 }
 
 
@@ -213,6 +222,15 @@ position: absolute;
 }
 .s55 #divs55 {
     width: 80%;
+}
+.footer-content {
+	display: block;
+	text-align: center;
+}
+
+#footerright {
+text-align: center;
+
 }
 }
 

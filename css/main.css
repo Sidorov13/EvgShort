@@ -757,7 +757,24 @@ background: linear-gradient(180deg, #F08175 0%, #F8D8C3 89.58%, #BD5725 100%);
 }
 .footer .item img    {
   width: 6%;
+   margin-bottom: 30px;
 }
+
+#footercenter {
+text-align:center;
+.a {
+  color:inherit;
+}
+}
+#footercenter a{
+
+  color:inherit;
+
+}
+#footerright {
+  text-align:end;
+}
+
 
 .box-modal iframe{
   width: 100%;
