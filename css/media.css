@@ -6,8 +6,48 @@
 	
 }
 @media only screen and (max-width : 1200px) {
-
+	 .s55 img {
+position: absolute;
+  width: 33%;
+  top: 26%;
+  right: -1%;
+  
 }
+.s55 #divs55 {
+    width: 80%;
+}
+#divprice {
+	width: 100%;
+}
+#iframe{
+ width :371px;
+ height: 300px;
+}
+}
+@media screen and (min-width: 810px) and (max-width: 1080px) {
+  /* ваш стиль CSS здесь */
+  	 .s55 img {
+position: absolute;
+  width: 33%;
+  top: 26%;
+  right: -1%;
+  
+}
+.s55 #divs55 {
+    width: 80%;
+}
+#divprice {
+	width: 100%;
+}
+#iframe{
+ width :371px;
+ height: 300px;
+}
+}
+
+
+
+
 
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 992px) {
@@ -167,7 +207,10 @@ text-align: center;
 	width: 100%;
 }
 
-
+#iframe{
+ width :371px;
+ height: 300px;
+}
 }
 
 
@@ -244,6 +287,8 @@ width: 100%;
 #divprice {
 	width: 100%;
 }
+
+
 }
 
  /* Large Devices, Wide Screens */
