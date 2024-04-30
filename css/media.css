@@ -1,6 +1,7 @@
 /*==========  Desktop First Method  ==========*/
 
-/* Large Devices, Wide Screens */
+/* Large Devices, Wide Screens Ipad */
+
 @media only screen and (max-width : 1400px) {
 	
 }
@@ -162,6 +163,11 @@ border-radius: 20px;
 text-align: center;
 
 }
+#divprice {
+	width: 100%;
+}
+
+
 }
 
 
@@ -231,6 +237,12 @@ position: absolute;
 #footerright {
 text-align: center;
 
+}
+.accordion {
+width: 100%;
+}
+#divprice {
+	width: 100%;
 }
 }
 

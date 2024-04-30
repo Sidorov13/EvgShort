@@ -257,7 +257,7 @@ img{
 
 .s1{
 	background: linear-gradient(180deg, #FFF 0%, #FFF 22.29%, #FFF 39.07%, #EAE2BA 69.66%, #FFFCBB 100%);
-     
+     margin-top: 20px;
   padding-top: 0;
 }
 .s1 .content{
@@ -845,26 +845,29 @@ font-size: 20px;
 margin-bottom: 20px;
 }
 
-.image-container {
-    width: 200px; /* Установите желаемую ширину контейнера */
-    height: 200px; /* Установите желаемую высоту контейнера */
-    overflow: hidden; /* Обрезать изображение, которое выходит за пределы контейнера */
-}
 
-.image-container img {
+
+#gridcon img {
     width: 100%; /* Заполнить всю ширину контейнера */
     height: 100%; /* Заполнить всю высоту контейнера */
     transition: transform 0.3s ease; /* Добавить плавный переход */
 }
 
-.image-container img:hover {
+#gridcon img:hover {
     transform: scale(1.2); /* Увеличить картинку в 1.2 раза при наведении */
 }
 #logohead{
 left: 1%;
 position: absolute;
+width: 7%;
+
 
 }
-
-
+ #divprice{
+  width: 63%;
+ }
+#iframe{
+ width :371px;
+ 
+}
 
