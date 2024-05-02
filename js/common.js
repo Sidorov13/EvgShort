@@ -1,6 +1,6 @@
 $( ".openModal" ).click(function(e) {
         // URL, который нужно открыть
-        var linkUrl = 'https://pay.fondy.eu/s/yQhPxzbcr87oYq';
+        var linkUrl = 'https://pay.fondy.eu/s/qAF93o7UpyB?_gl=1*1da6ps9*_gcl_au*MTY3NTAyMzE3Mi4xNzE0NjQ0NDQ5*_ga*MTA1NDc0MzUyMi4xNzE0NjQ0NDUw*_ga_Z2KY5VSWGZ*MTcxNDY0NDQ0OS4xLjEuMTcxNDY0NTkyMi4xMS4wLjA.';
 
         // Открыть ссылку в новом окне или вкладке
         window.open(linkUrl, '_blank');
