@@ -308,6 +308,7 @@ width: 100%;
     /* Поменять цвет текста h2 на белый в темной теме */
    .s1 h2 {
       color: #ffffff; /* Белый цвет */
+      -webkit-text-fill-color: #ffff;
     }
   }
 }
