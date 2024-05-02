@@ -66,7 +66,17 @@ button::before{
   top: 12px;
   width: 32px;
   height: 32px;
+
 }
+.openModal:active {
+  transform: scale(0.95); /* Изменение размера при нажатии */
+}
+.openModal:hover {
+  background-color: #530D10;
+  transform: scale(0.95)
+}
+
+
 section{
 	padding: 50px 0;
 	position: relative;
@@ -846,7 +856,7 @@ margin-bottom: 20px;
 }
 #gridcon{
   margin-bottom: 20px;
-  
+
 }
 
 
@@ -873,3 +883,6 @@ width: 7%;
  width :371px;
  height: 300px;
 }
+ #divs55 p {
+  font-size: 1.100em;
+ }

@@ -3,6 +3,7 @@
 /* Large Devices, Wide Screens Ipad */
 
 @media only screen and (max-width : 1400px) {
+
 	
 }
 @media only screen and (max-width : 1200px) {
@@ -14,7 +15,7 @@ position: absolute;
   
 }
 .s55 #divs55 {
-    width: 80%;
+    width: 100%;
 }
 #divprice {
 	width: 100%;
@@ -34,7 +35,7 @@ position: absolute;
   
 }
 .s55 #divs55 {
-    width: 78%;
+    width: 74%;
 }
 #divprice {
 	width: 100%;
@@ -43,6 +44,7 @@ position: absolute;
  width :371px;
  height: 300px;
 }
+
 }
 
 
@@ -270,7 +272,7 @@ position: absolute;
   
 }
 .s55 #divs55 {
-    width: 80%;
+    width: 76%;
 }
 .footer-content {
 	display: block;
@@ -293,5 +295,9 @@ width: 100%;
 
  /* Large Devices, Wide Screens */
 @media only screen and (min-width : 1920px) {
+
+}
+
+@media only screen and (max-width : 1920px) {
 
 }
