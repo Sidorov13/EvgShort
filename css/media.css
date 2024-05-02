@@ -302,12 +302,10 @@ width: 100%;
 
 }
 
-@media screen and (-webkit-min-device-pixel-ratio:0) and (min-resolution:.001dpcm) {
-  /* Применяем стили только для Samsung браузера */
-  @media (prefers-color-scheme: dark) {
-    /* Поменять цвет текста h2 на белый в темной теме */
-    h2 {
+@media (prefers-color-scheme: dark) {
+  /* Поменять цвет шрифта на белый в темной теме */
+  h2 {
       color: #ffffff; /* Белый цвет */
     }
-  }
+}
 }
