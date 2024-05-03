@@ -20,7 +20,7 @@ h1, h2, h3, p{margin: 0;}
 
 h1, h2{
   /*background: linear-gradient(180deg, #260705 0%, #D9AA1C 89.58%, #BD4622 100%);*/
-  background: #BD4622;
+  background: #EE877C;
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
