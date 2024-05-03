@@ -246,14 +246,14 @@ img{
 .mob{
   display: none !important;
 }
+
+
 .blue{
-  background: #EE877C;
+ color: #EE877C;
  font-size: 40px;
- -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-    /*line-height: 1;*/
-  text-transform: uppercase;
   font-weight: 900;
+    line-height: 1;
+  text-transform: uppercase;
 }
 .bluebg{
   border-radius: 30px;
