@@ -1,12 +1,55 @@
 /*==========  Desktop First Method  ==========*/
 
-/* Large Devices, Wide Screens */
+/* Large Devices, Wide Screens Ipad */
+
 @media only screen and (max-width : 1400px) {
+
 	
 }
 @media only screen and (max-width : 1200px) {
+	 .s55 img {
+position: absolute;
+  width: 33%;
+  top: 26%;
+  right: -1%;
+  
+}
+.s55 #divs55 {
+    width: 100%;
+}
+#divprice {
+	width: 100%;
+}
+#iframe{
+ width :371px;
+ height: 300px;
+}
+}
+@media screen and (min-width: 810px) and (max-width: 1080px) {
+  /* ваш стиль CSS здесь */
+  	 .s55 img {
+position: absolute;
+  width: 33%;
+  top: 26%;
+  right: -1%;
+  
+}
+.s55 #divs55 {
+    width: 74%;
+}
+#divprice {
+	width: 100%;
+}
+#iframe{
+ width :371px;
+ height: 300px;
+}
 
 }
+
+
+
+
 
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 992px) {
@@ -15,10 +58,11 @@
 
 /* Small Devices, Tablets */
 @media only screen and (max-width : 768px) {
-	
+
+
 }
 @media only screen and (max-width : 600px) {
-	.s1 .content, .box-modal,.s1 .head,.s1 h1+p,.s3 .item,.s3 .bluebg,.s4 .item,.s5 img,.s6 .item,.s7 .it,.s8 .items,.s9 .item,.accordion,.s1 ul{
+	.s1 .content, .box-modal,.s1 .head,.s1 h1+p,.s3 .item,.s3 .bluebg,.s4 .item,.s5 img,.s55 img,.s6 .item,.s7 .it,.s8 .items,.s9 .item,.accordion,.s1 ul{
 		width: 100%;
 	}
 	.desk{
@@ -93,6 +137,10 @@
 	position: relative;
 	right: 0;
 }
+.s55 img{
+	position: relative;
+	right: 0;
+}
 .s5 .descr {
     bottom: 25%;
     right: 0;
@@ -102,7 +150,7 @@
     width: max-content;
 }
 .s5{
-	background: linear-gradient(180deg, #FFF 35%, #3AA1FF 76.65%);
+	background: linear-gradient(#FFFCBB, #FFDFDC); 
 }
 .s6{
 	background: url('../img/mob_bg.png') no-repeat;
@@ -133,6 +181,7 @@
 .s7 .items{
 background: rgba(255, 255, 255, 0.50);
 backdrop-filter: blur(0.5px);
+border-radius: 20px;
 }
 .s8 .lesson {
     padding: 5px 10px;
@@ -146,6 +195,23 @@ backdrop-filter: blur(0.5px);
 }
 .s11 img{
 	width: 35%;
+}
+.footer-content {
+	display: block;
+	text-align: center;
+}
+
+#footerright {
+text-align: center;
+
+}
+#divprice {
+	width: 100%;
+}
+
+#iframe{
+ width :371px;
+ height: 300px;
 }
 }
 
@@ -181,13 +247,50 @@ backdrop-filter: blur(0.5px);
 
 }
 
+
 /* Small Devices, Tablets */
 @media only screen and (min-width : 768px) {
 
 }
 
+@media only screen and (min-width: 320px) and (max-width: 768px) {
+    /* Ваши стили */
+
+}
+
 /* Medium Devices, Desktops */
 @media only screen and (min-width : 992px) {
+
+
+}
+@media only screen and (max-height : 412px) {
+    .s55 img {
+position: absolute;
+  width: 33%;
+  top: 26%;
+  right: -1%;
+  
+}
+.s55 #divs55 {
+    width: 76%;
+}
+.footer-content {
+	display: block;
+	text-align: center;
+}
+
+#footerright {
+text-align: center;
+
+}
+.accordion {
+width: 100%;
+}
+#divprice {
+	width: 100%;
+}
+
+
 
 }
 
@@ -195,3 +298,23 @@ backdrop-filter: blur(0.5px);
 @media only screen and (min-width : 1920px) {
 
 }
+
+@media only screen and (max-width : 1920px) {
+
+}
+ 
+
+/*@media only screen and (max-device-width: 767px) {
+
+  @media (prefers-color-scheme: dark) {
+ #divs55 h2 {
+   background-color: white;
+}
+}
+}
+/*
+
+
+
+
+
