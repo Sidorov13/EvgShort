@@ -291,6 +291,7 @@ width: 100%;
 }
 
 
+
 }
 
  /* Large Devices, Wide Screens */
@@ -304,20 +305,18 @@ width: 100%;
  
 
 @media only screen and (max-width: 600px) and (orientation: portrait) and (-webkit-device-pixel-ratio: 2) and (color: 8bpp) {
-  /* Применяем стили только для телефонов Android */
   @media (prefers-color-scheme: dark) {
     /* Поменять цвет текста h2 на белый в темной теме */
-    h2 {
-      color: #ffffff; /* Белый цвет */
+    #divs55 {
+      color: blue; /* Белый цвет */
     }
   }
 }
 @media only screen and (max-width: 767px) and (orientation: portrait) and (-webkit-device-pixel-ratio: 2) {
-  /* Применяем стили только для телефонов Android */
-  @media (prefers-color-scheme: dark) {
+ @media (prefers-color-scheme: dark) {
     /* Поменять цвет текста h2 на белый в темной теме */
-    h2 {
-      color: #ffffff; /* Белый цвет */
+    #divs55 {
+      color: blue; /* Белый цвет */
     }
   }
 }
