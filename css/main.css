@@ -20,7 +20,8 @@ h1, h2, h3, p{margin: 0;}
 
 h1, h2{
   /*background: linear-gradient(180deg, #260705 0%, #D9AA1C 89.58%, #BD4622 100%);*/
-  background: linear-gradient(180deg, #F08175 0%, #F8D8C3 89.58%, #BD5725 100%);
+  /*background: linear-gradient(180deg, #F08175 0%, #F8D8C3 89.58%, #BD5725 100%);*/
+  background: linear-gradient(180deg, #F08175 0%, #9F4545 89.58%, #BD5725 100%);
   /*background: #EE877C;*/
   background-clip: text;
   -webkit-background-clip: text;
