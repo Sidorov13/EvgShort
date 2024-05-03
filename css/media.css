@@ -320,4 +320,17 @@ width: 100%;
     }
   }
 }
+@media all and (-webkit-min-device-pixel-ratio: 3) and (min-resolution: 192dpi) {
+  @media (max-width: 600px) {
+    @supports (-webkit-touch-callout: none) {
+      /* Применяем стили только в Samsung браузере */
+      body {
+        background-color: #000; /* Задаем цвет фона для темной темы */
+      }
+      #divs55 {
+      color: blue; /* Белый цвет */
+    }
+    }
+  }
+}
 
