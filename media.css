@@ -306,26 +306,12 @@ width: 100%;
 
 
 
-@media all and (-webkit-min-device-pixel-ratio: 3) and (min-resolution: 192dpi) {
-  /* Применяем стили только в Samsung браузере */
-  @supports (-webkit-touch-callout: none) {
-    /* Применяем стили только в темной теме */
-    @media (prefers-color-scheme: dark) {
-      #divs55 {
-        color: blue; /* Задаем белый цвет шрифта */
-      }
-    }
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: white; /* Темный фон */
+    color: dark; /* Белый текст */
   }
 }
 
-@media screen and (-webkit-min-device-pixel-ratio: 3) and (min-resolution: 192dpi) {
-  /* Применяем стили только в Samsung браузере на устройствах Android */
-  @media all and (-webkit-device-pixel-ratio: 3) and (max-width: 800px) {
-    /* Применяем стили только в темной теме */
-  #divs55 {
-        color: blue; /* Задаем белый цвет шрифта */
-      }
-  }
-}
 
 
