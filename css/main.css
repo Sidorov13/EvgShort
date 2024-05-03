@@ -247,7 +247,7 @@ img{
   display: none !important;
 }
 .blue{
-  background: linear-gradient(180deg, #260705 0%, #D9AA1C 89.58%, #BD4622 100%);
+  background: #EE877C;
  font-size: 40px;
  -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
