@@ -304,13 +304,11 @@ width: 100%;
 }
  
 
-
- 
 @media only screen and (max-device-width: 767px) {
   /* Ваши стили для Android */
   @media (prefers-color-scheme: dark) {
-.s55 #divs55 {
-   color:blue;
+ #divs55 h2 {
+   background-color: blue;
 }
 }
 }

@@ -16,8 +16,10 @@ ul{margin: 0;padding: 0;list-style: none;}
 a, button{outline: none;}
 h1, h2, h3, p{margin: 0;}
 
+
+
 h1, h2{
-  background: linear-gradient(180deg, #260705 0%, #D9AA1C 89.58%, #BD4622 100%); 
+  /*background: linear-gradient(180deg, #260705 0%, #D9AA1C 89.58%, #BD4622 100%); */
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -206,6 +208,8 @@ img{
 .getting-started .text-timer{
     font-size:14px;
 }
+
+
 
 #menu{
   width:100%;
