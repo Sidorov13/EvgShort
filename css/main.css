@@ -247,8 +247,13 @@ img{
   display: none !important;
 }
 .blue{
- color: #EE877C;
+  background: linear-gradient(180deg, #260705 0%, #D9AA1C 89.58%, #BD4622 100%);
  font-size: 40px;
+ -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+    line-height: 1;
+  text-transform: uppercase;
+  font-weight: 900;
 }
 .bluebg{
   border-radius: 30px;
