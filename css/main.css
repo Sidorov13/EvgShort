@@ -127,9 +127,8 @@ img{
 }
 .accordion .title_block span{
   border-radius: 10px;
- 
   color: #fff;
-  background: linear-gradient(180deg, #F08175 0%, #F8D8C3 89.58%);
+  background: #EE877C;
   font-size: 10px;
   font-weight: 700;
   color: #fff;
@@ -327,7 +326,7 @@ background-color: red;
 }
 
 .s1 .price span{
-  background: linear-gradient(180deg, #F08175 0%, #F8D8C3 89.58%, #BD5725 100%);  
+  background: #EE877C ;
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -671,7 +670,7 @@ position: absolute;
   text-transform: uppercase;
 }
 .s10 .price span, .box-modal .price span{
-background: linear-gradient(180deg, #F08175 0%, #F8D8C3 89.58%, #BD5725 100%);
+background: #EE877C;
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
