@@ -1,6 +1,6 @@
 $( ".openModal" ).click(function(e) {
         // URL, который нужно открыть
-        var linkUrl = 'https://pay.fondy.eu/s/qAF93o7UpyB?_gl=1*1da6ps9*_gcl_au*MTY3NTAyMzE3Mi4xNzE0NjQ0NDQ5*_ga*MTA1NDc0MzUyMi4xNzE0NjQ0NDUw*_ga_Z2KY5VSWGZ*MTcxNDY0NDQ0OS4xLjEuMTcxNDY0NTkyMi4xMS4wLjA.';
+        var linkUrl = 'https://pay.fondy.eu/s/BL5M1hkSJdnSF8z4?_gl=1*130awg9*_gcl_au*NDIxMzIzMTkxLjE3MTc1Nzg3MDI.*_ga*MTU3MzUyNDY3OS4xNzE3NTc4NzAy*_ga_Z2KY5VSWGZ*MTcxNzU3ODcwMi4xLjEuMTcxNzU3OTcyNC42MC4wLjA.';
 
         // Открыть ссылку в новом окне или вкладке
         window.open(linkUrl, '_blank');
